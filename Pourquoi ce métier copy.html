@@ -3,11 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contacter le Syndicat Mixte de la Dune du Pilat</title>
+    <title>Pourquoi ce métier ?</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
-  <body class="img" id="bgimg">
+  <body> 
     <div id="header"></div>
     <script>
       fetch('header.html') // créer une requête pour récupérer le contenu du fichier header.html
@@ -16,27 +16,16 @@
           document.getElementById('header').innerHTML = data; // insérer le texte dans la div au dessus ;-)
         });
     </script>
-    <main class="container py-3 my-4">
-      <h1 class="text-center">Contacter le Syndicat Mixte de la Dune du Pilat</h1>
-      <br>
-      <div class="row gap-4 justify-content-center">
-          <div class="col-12 col-md-6 col-lg-4">
-              <div class="card" style="width: 100%;">
-                  <img src="assets/img/vignette-en-bref.jpg.webp" class="card-img-top" alt="...">
-                  <div class="card-body text-center">
-                      <div class="card-title"><b>GRAND SITE DE LA DUNE DU PILAT</b></div>
-                      <p class="card-text">
-                          Route de Biscarrosse RD 218 33115 Pyla-sur-Mer<br>
-                          Le point accueil et information<br>
-                          05 56 22 12 85 / 07 86 79 45 34
-                      </p>
-                  </div>
-              </div>
-          </div>
-      </div>
-      
-  </main>
+    <main>
   
+      <ul>
+        <h1><b>Les différentes raisons </b></h1><br>
+        <li><b><u>Passion :</u></b> Depuis petit je suis intéressé par les ordinateurs et plus particulièrement par le code. Alors je voulais me rendre compte si j'aimais vraiment le pratiquer.</li>
+         <li><b><u>Autonomie :</u></b> Je voulais travailler librement, me gérer tout seul. J'ai donc choisi ce métier pour travailler en Freelance.</li> 
+          <li><b><u>Rémunération :</u></b> Le métier de développer web est plutôt bien payé en début de carrière en étant salarié, aux alentours de 3000 à 3700 euros net par mois.</li>
+      </ul>
+  
+    </main>
     <div id="footer"></div>
     <script>
       fetch('footer.html') // créer une requête pour récupérer le contenu du fichier footer.html
